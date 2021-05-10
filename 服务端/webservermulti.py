@@ -177,6 +177,7 @@ def SendHTML(temperature, humidity, pressure, light):
     ptr +="<head>"
     ptr +="<title>ESP8266 Weather Station</title>"
     ptr +="<meta name='viewport' content='width=device-width, initial-scale=1.0'>"
+    ptr += '''<meta http-equiv="refresh" content="20" >'''
     ptr += "<meta http-equiv=Content-Type content=text/html, charset=utf-8 >"
     ptr +="<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet'>"
     ptr +="<style>"
