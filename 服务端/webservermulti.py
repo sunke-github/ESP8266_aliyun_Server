@@ -241,7 +241,7 @@ def SendHTML(temperature, humidity, pressure, light):
     ptr +="<div class='side-by-side text'>Pressure</div>"
     ptr +="<div class='side-by-side reading'>"
     ptr +=str(pressure)
-    ptr +="<span class='superscript'>hPa</span></div>"
+    ptr +="<span class='superscript'>kPa</span></div>"
     ptr +="</div>"
     
     ptr +="<div class='data illumination'>"
